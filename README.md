@@ -42,3 +42,10 @@ Chats:
 - `delete`: deletes `message` (only for you).
 - `autoread`: automatically reads all messages in the chat up to the `message`.
 - `print`: just prints a basic information about a `message`. Useful for debugging to see which messages are matched by your `contidion`.
+
+## FAQ
+Q: How the script is performing actions on my behalf?
+A: By using Telegram API. You can read more [here](https://core.telegram.org/api/obtaining_api_id). Also you can obtain your `api_id` and `api_hash` at [https://my.telegram.org/apps](https://my.telegram.org/apps).
+
+Q: I get an error: `ModuleNotFoundError: No module named 'secret'`. How can I fix it?
+A: Create file `secret.py`. Then place here your `api_id` and `api_hash` from [https://my.telegram.org/apps](https://my.telegram.org/apps).
