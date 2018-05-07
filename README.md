@@ -1,4 +1,4 @@
-# shuplpy
+# shupy
 
 The utility is written to ignore non-relevant messages in radical way.
 
